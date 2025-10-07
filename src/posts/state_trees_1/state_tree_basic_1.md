@@ -3,6 +3,9 @@ layout: layouts/home.njk
 title: State Tree basic demo
 ---
 
+<img class="block" src="{{ '../imgs/state1.jpg' | url }}" alt="skjfd" width=400 />
+
+
 
 <h1 class="supertitle">learn me a state tree!!</h1>
 
@@ -53,6 +56,11 @@ Create an Actor, give it a mesh or whatnot, just for something to display.
 
 Create a StateTree. Select the StateTree Component. The others AI and AISchema are for another tutorial.
 
+???
+
+<img src="{{ '/posts/state_trees_1/imgs/state2.jpg' | url }}" alt="">
+
+???
 
 <img class="block" src="{{ './imgs/state1.jpg' | url }}" alt="skjfd" eleventy:widths="400"  />
 <img class="block" src="./imgs/state2.jpg" alt="skjfd" eleventy:widths="500"  />

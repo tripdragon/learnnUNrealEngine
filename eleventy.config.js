@@ -12,14 +12,14 @@ export default async function(eleventyConfig) {
 
 
 
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		 // which file extensions to process
-	    //extensions: ['html', 'md'],
-	    // optional, output image formats
-	    formats: ['jpg', 'webp', 'png'],
-	    widths: ['auto']
+	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+	// 	 // which file extensions to process
+	//     //extensions: ['html', 'md'],
+	//     // optional, output image formats
+	//     formats: ['jpg', 'webp', 'png'],
+	//     widths: ['auto']
 	    
-	});
+	// });
 
 	return {
 	    dir: {
