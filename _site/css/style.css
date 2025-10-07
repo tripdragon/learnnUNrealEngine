@@ -1,0 +1,103 @@
+body{
+	padding: 4em;
+	font-size: 16px;
+
+	font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h1, h2, h3{
+	font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+	font-size: 2.5rem;
+	font-weight: 900;
+}
+h2{
+	font-size: 1.9rem;
+	font-weight: 900;
+}
+h3{
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+h1.supertitle{
+	
+	  font-family: "Bitcount Grid Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  /*font-style: normal;*/
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+
+ 
+    font-size: 4rem;
+    color: #004fff;
+    /*font-family: "Arial Black", Gadget, sans-serif;*/
+    text-shadow: 0px 0px 0 rgb(247,185,0),
+                 1px 1px 0 rgb(200,177,0),
+                 2px 2px 0 rgb(231,169,0),
+                 3px 3px 0 rgb(224,162,0),
+                 4px 4px 0 rgb(216,154,0),
+                 5px 5px 0 rgb(208,146,0),
+                 6px 6px 0 rgb(200,138,0),
+                 7px 7px 0 rgb(192,130,0),
+                 8px 8px  0 rgb(184,122,0),
+                 9px 9px 8px rgba(1,177,242,0.22),
+                 9px 9px 1px rgba(167,177,242,0.5),
+                 0px 0px 8px rgba(167,177,242,.2);
+ }
+
+
+}
+
+img{
+	max-width: 800px;
+	height: auto;
+}
+
+img.block{
+	display: block;
+}
+
+
+#nav-wrappy{
+  width: auto;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog_space{
+	width: auto;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.blog_space img{
+	margin-left: 2em;
+}
+
+.blog_space p{
+	/*max-width: 760px;*/
+	width: 100%;
+	font-size: 1.28rem;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
