@@ -8,7 +8,8 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/assets');
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 
-	eleventyConfig.addPassthroughCopy('src/posts');
+	eleventyConfig.addPassthroughCopy("src/posts/**/imgs");
+
 
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
