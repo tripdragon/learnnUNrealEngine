@@ -23,7 +23,7 @@ export default async function(eleventyConfig) {
 	    dir: {
 	        input: 'src'
 	    },
-		pathPrefix: "/learnn/"
+		pathPrefix: "/learnnUNrealEngine/"
 
 	};
 
