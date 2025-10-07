@@ -21,8 +21,7 @@ export default async function(eleventyConfig) {
 
 	return {
 	    dir: {
-	        input: 'src',
-	        output: 'docs'
+	        input: 'src'
 	    },
 		pathPrefix: "/learnn/"
 
