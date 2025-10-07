@@ -1,10 +1,13 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 
 export default async function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy('src/css');
-eleventyConfig.addWatchTarget('src/css');
-eleventyConfig.addPassthroughCopy('src/assets');
+	eleventyConfig.addWatchTarget('src/css');
+	eleventyConfig.addPassthroughCopy('src/assets');
+	eleventyConfig.addPlugin(HtmlBasePlugin);
+
 
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
@@ -21,6 +24,8 @@ eleventyConfig.addPassthroughCopy('src/assets');
 	        input: 'src',
 	        output: 'docs'
 	    },
+		pathPrefix: "/learnn/"
+
 	};
 
 };
