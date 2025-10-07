@@ -29,8 +29,7 @@
     </div>
 </div>
             <div class="blog_space">
-                <img class="block" src="../imgs/state1.jpg" alt="skjfd" width="400">
-<h1 class="supertitle">learn me a state tree!!</h1>
+                <h1 class="supertitle">learn me a state tree!!</h1>
 <h4><em>v: Unreal Engine 5.6 / revision 1</em></h4>
 <h2>State Trees / Machines / Finite\</h2>
 <p>These are typically a framework or routine labeled as FSM, which boils down to either</p>
@@ -60,79 +59,76 @@ UE5 || State Tree Blueprint Tasks Explained - Part 2</a></p>
 <hr>
 <p>Create an Actor, give it a mesh or whatnot, just for something to display.</p>
 <p>Create a StateTree. Select the StateTree Component. The others AI and AISchema are for another tutorial.</p>
-<p>???</p>
-<img src="/learnnUNrealEngine/learnnUNrealEngine/posts/state_trees_1/imgs/state2.jpg" alt="">
-<p>???</p>
-<img class="block" src="imgs/state1.jpg" alt="skjfd" eleventy:widths="400">
-<img class="block" src="imgs/state2.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state1.jpg" alt="skjfd" width="400">
+<img class="block" src="../imgs/state2.jpg" alt="skjfd" width="500">
 <p>In the Blueprint Class of the actor add a Component &quot;StateTree&quot;</p>
-<img class="block" src="imgs/state3.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state3.jpg" alt="skjfd" width="500">
 <p>In the Details: AI you should be able to select the StateTree</p>
-<img class="block" src="imgs/state4.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state4.jpg" alt="skjfd" width="500">
 <br>
-<img class="block" src="imgs/state5.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state5.jpg" alt="skjfd" width="500">
 <p>Compile</p>
-<img class="block" src="imgs/state6.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state6.jpg" alt="skjfd" width="500">
 <p>Within the the StateTree you have the option to change the <em>&quot;Context Actor Class&quot;</em> to the blueprint its self further coupled it, but we don't need to for this example, so leave it as it is.</p>
-<img class="block" src="imgs/state7.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state7.jpg" alt="skjfd" width="500">
 <p>Select the <em>&quot;Root&quot;</em> state, then press the <em>&quot;New Task&quot;</em> button and select &quot;StateTree Task Blueprint Base&quot;. Save to whereever</p>
-<img class="block" src="imgs/state8.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state8.jpg" alt="skjfd" width="500">
 <br>
-<img class="block" src="imgs/state9.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state9.jpg" alt="skjfd" width="500">
 <p>Compile
-<img class="block" src="imgs/state10.jpg" alt="skjfd" eleventy:widths="500"></p>
+<img class="block" src="../imgs/state10.jpg" alt="skjfd" width="500"></p>
 <p>Two steps: select the &quot;Root&quot;<br>
 1: Find the Details: Tasks area and press the plus circle.<br>
 2: Select the newly created task</p>
-<img class="block" src="imgs/state11.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state11.jpg" alt="skjfd" width="500">
 <p>Compile</p>
-<img class="block" src="imgs/state12.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state12.jpg" alt="skjfd" width="500">
 <p>Open the task, in the <em>Functions</em> override the <em>tick</em> event</p>
-<img class="block" src="imgs/state12b.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state12b.jpg" alt="skjfd" width="500">
 <p>Build a simple print to test if stuff is working. Compile
-<img class="block" src="imgs/state14.jpg" alt="skjfd" eleventy:widths="500"></p>
+<img class="block" src="../imgs/state14.jpg" alt="skjfd" width="500"></p>
 <p>Compile</p>
-<img class="block" src="imgs/state18.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state18.jpg" alt="skjfd" width="500">
 <p>Run game</p>
-<img class="block" src="imgs/state15.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state15.jpg" alt="skjfd" width="500">
 <p>Create a variable for the Actor reference of type Object Ref</p>
-<img class="block" src="imgs/state16.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state16.jpg" alt="skjfd" width="500">
 <p>Be sure to enable the visible option</p>
-<img class="block" src="imgs/state17.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state17.jpg" alt="skjfd" width="500">
 <p>Compile</p>
-<img class="block" src="imgs/state18.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state18.jpg" alt="skjfd" width="500">
 <p>Back in the State Tree in the Detail: Task you should see the blue pill binding icon, select the <em>actor</em>
-<img class="block" src="imgs/state19.jpg" alt="skjfd" eleventy:widths="500"></p>
+<img class="block" src="../imgs/state19.jpg" alt="skjfd" width="500"></p>
 <p>Compile</p>
-<img class="block" src="imgs/state18.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/state18.jpg" alt="skjfd" width="500">
 <p>Back in the Task, add something to further test the first state, here we have the most basic of walk. Use the Actor variable from earlier for target as &quot;self&quot; will not work here</p>
-<img class="block" src="imgs/state20.jpg" alt="skjfd" eleventy:widths="700">
+<img class="block" src="../imgs/state20.jpg" alt="skjfd" width="700">
 <p>Compile, run game</p>
-<img class="block" src="imgs/state21.jpg" alt="skjfd" eleventy:widths="700">
+<img class="block" src="../imgs/state21.jpg" alt="skjfd" width="700">
 <br>
 <hr>
 <h2>Part 2</h2>
 <p>Add a new state with &quot;Add State&quot; button</p>
-<img class="block" src="imgs/b_state1.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state1.jpg" alt="skjfd" width="500">
 <p>To get the state to be outside of the Root you have to drag it around in the UI</p>
-<img class="block" src="imgs/b_state2.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state2.jpg" alt="skjfd" width="500">
 <p>Select the new state. Make a new Task like before</p>
-<img class="block" src="imgs/b_state4.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state4.jpg" alt="skjfd" width="500">
 <p>Add a print to ready a test</p>
-<img class="block" src="imgs/b_state3.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state3.jpg" alt="skjfd" width="500">
 <p>In the first states Task, note to self, <strong>Finish Task</strong> node allows exiting the state</p>
-<img class="block" src="imgs/b_state5.jpg" alt="skjfd" eleventy:widths="600">
+<img class="block" src="../imgs/b_state5.jpg" alt="skjfd" width="600">
 <p>Add a condition of any sort to trigger the <strong>Finish task</strong> node. Here we just wait then flip the actor</p>
-<img class="block" src="imgs/b_state6.jpg" alt="skjfd" eleventy:widths="800">
+<img class="block" src="../imgs/b_state6.jpg" alt="skjfd" width="800">
 <p>In The state tree, with the new state selected, add the task</p>
-<img class="block" src="imgs/b_state7.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state7.jpg" alt="skjfd" width="500">
 <p>Select the <strong>Root State</strong> then in the TransitionTo drop down select &quot;idle&quot; or whatever you named the other state</p>
-<img class="block" src="imgs/b_state8.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state8.jpg" alt="skjfd" width="500">
 <p>Compile, run</p>
-<img class="block" src="imgs/b_state9.jpg" alt="skjfd" eleventy:widths="500">
-<img class="block" src="imgs/b_state9b.jpg" alt="skjfd" eleventy:widths="500">
+<img class="block" src="../imgs/b_state9.jpg" alt="skjfd" width="500">
+<img class="block" src="../imgs/b_state9b.jpg" alt="skjfd" width="500">
 <h2>yay</h2>
-<!-- ![words](./imgs/state1.jpg){"width":"200"} -->
+<!-- ![words](../imgs/state1.jpg){"width":"200"} -->
             </div>
         </div>
     </body>
